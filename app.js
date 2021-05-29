@@ -187,6 +187,7 @@ else if (taskNum === 14) {
  var amountBefore = numOfUnits * perUnitCharges;
  var lateCharges = 350;
  var amountAfter = amountBefore + lateCharges;
+ document.write("<h1>K-Electric Bill</h1>");
  document.write("Customer Name: " + "<b>" + customerName + "</b><br />");
  document.write("Month: " + "<b>" + currentMonth + "</b><br />");
  document.write("Number of units: " + "<b>" +  numOfUnits + "</b><br />");
